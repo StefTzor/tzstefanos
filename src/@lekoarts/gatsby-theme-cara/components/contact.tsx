@@ -3,12 +3,13 @@ import { jsx } from "theme-ui"
 import styled from "@emotion/styled"
 import Divider from "../elements/divider"
 import Inner from "../elements/inner"
-import Content from "../elements/content"
+import Content from "../elements/content" 
 import SVG from "./svg"
 import { UpDown, UpDownWide, waveAnimation } from "../styles/animations"
 import Footer from "./footer"
 // @ts-ignore
 import ContactMDX from "../sections/contact"
+import ResumeMDX from "../sections/resume"
 
 const InnerWave = styled.div`
   path {
@@ -37,6 +38,11 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
         <ContactMDX />
+
+
+        
+
+
       </Inner>
       <Footer />
     </Content>

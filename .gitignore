@@ -1,5 +1,7 @@
-# Static folder
+# Folders
 static/
+defnot_static/
+src/@lekoarts/gatsby-theme-cara/images/
 
 # Logs
 logs

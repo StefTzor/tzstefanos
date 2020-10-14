@@ -7,10 +7,9 @@ type ProjectCardProps = {
   title: string
   children: React.ReactNode
   bg: string
-  img: any
 }
 
-const ProjectCard = ({ link, title, children, bg, img  }: ProjectCardProps) => (
+const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
   <a
     href={link}
     target="_blank"
@@ -45,10 +44,6 @@ const ProjectCard = ({ link, title, children, bg, img  }: ProjectCardProps) => (
       }}
     >
       {title}
-    </div>
-    <div>
-      <img src={img} />
-      {console.log(img)}
     </div>
   </a>
   
