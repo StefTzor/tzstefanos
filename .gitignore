@@ -1,6 +1,5 @@
 # Static folder
-static  
-**/static/**
+static/
 
 # Logs
 logs
