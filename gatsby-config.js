@@ -9,7 +9,22 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
+    // Used for the title template on pages other than the index site
+    siteTitle: `steftzor`,
+    // Default title of the page
     siteTitleAlt: `Stefanos Tzortzoglou`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `Stefanos Tzortzoglou`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://steftzor.gtsb.io/`,
+    // Used for SEO
+    //siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    //siteImage: `/banner.jpg`,
+    // Twitter Handle
+    //author: ``,
   },
   plugins: [
     {
