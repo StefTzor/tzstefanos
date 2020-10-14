@@ -10,13 +10,13 @@ module.exports = {
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
     // Used for the title template on pages other than the index site
-    siteTitle: `steftzor`,
+    siteTitle: `tzstefanos`,
     // Default title of the page
     siteTitleAlt: `Stefanos Tzortzoglou`,
     // Can be used for e.g. JSONLD
     siteHeadline: `Stefanos Tzortzoglou`,
     // Will be used to generate absolute URLs for og:image etc.
-    siteUrl: `https://steftzor.gtsb.io/`,
+    siteUrl: `https://tzstefanos.gtsb.io/`,
     // Used for SEO
     //siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
     // Will be set on the <html /> tag
@@ -42,8 +42,8 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Stefanos Tzortzoglou`,
-        short_name: `steftzor`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        short_name: `tzstefanos`,
+        description: `My personal website`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,

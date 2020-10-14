@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://steftzor.gtsb.io/">My personal website</a>
+  <a href="https://tzstefanos.gtsb.io/">My personal website</a>
 </h1>
 
 Deployed in Gatsby Cloud.  
