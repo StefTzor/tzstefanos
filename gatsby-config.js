@@ -12,9 +12,9 @@ module.exports = {
     // Used for the title template on pages other than the index site
     siteTitle: `tzstefanos`,
     // Default title of the page
-    siteTitleAlt: `Stefanos Tzortzoglou`,
+    siteTitleAlt: `tzstefanos`,
     // Can be used for e.g. JSONLD
-    siteHeadline: `Stefanos Tzortzoglou`,
+    siteHeadline: `tzstefanos`,
     // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://tzstefanos.gtsb.io/`,
     // Used for SEO
@@ -41,7 +41,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Stefanos Tzortzoglou`,
+        name: `tzstefanos`,
         short_name: `tzstefanos`,
         description: `My personal website`,
         start_url: `/`,
