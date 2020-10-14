@@ -18,7 +18,7 @@ module.exports = {
     // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://tzstefanos.gtsb.io/`,
     // Used for SEO
-    //siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    //siteDescription: `My personal website`,
     // Will be set on the <html /> tag
     siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder
